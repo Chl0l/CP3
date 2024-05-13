@@ -1,5 +1,13 @@
 # Checkpoint frontend
 
+## Commandes
+
+`npm run dev` dans le front et le back
+
+Ou si utilisation de Docker, il ne faut pas oublier de changer le fichier `next.config.js` :
+
+-> destination: "http://backend:4000/:path\*",
+
 ## Instructions
 
 Tu vas utiliser une API GraphQL qui fournit des informations sur un ensemble de pays.
