@@ -8,7 +8,7 @@ function App({ Component, pageProps }: AppProps) {
   const apolloClient = createApolloClient();
   return (
     <ApolloProvider client={apolloClient}>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </ApolloProvider>
   );
 }
